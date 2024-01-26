@@ -1,0 +1,56 @@
+*{
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+body{
+	margin:20px;
+	background-color:mediumaquamarine;
+}
+
+#header{
+	display:flex;
+	height:150px;
+	width:90%;
+	justify-content:space-around;
+	border-radius:20px;
+	background-color:mintcream;
+	margin:1rem auto;
+}
+
+.head{
+	color:black;
+}
+
+.contact-info{
+	margin-bottom:20px;
+	display:flex;
+	flex-direction:column;
+}
+
+.contact-info a{
+	text-decoration:none;
+}
+
+h1{
+	font-size:25px;
+}
+
+h2{
+	color:saddlebrown;
+}
+
+main{
+	width:1100px;
+	margin:0 auto 6rem;
+	background:mintcream;
+	border-radius:10px;
+	padding:1rem;
+}
+
+table{
+	width:100%;
+}
+.edu_table,.lang_table{
+	width:100%;
+	margin:10px 4px 0px;
+}
